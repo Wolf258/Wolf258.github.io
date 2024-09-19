@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // Reemplaza 'TU_CLAVE_DE_API' con tu clave de API del NY Times
+  
     var apiKey = 'rcLzDmw0bKXJWGhwtfRNqEu1MonFg0N8';
     var url = `https://api.nytimes.com/svc/mostpopular/v2/viewed/7.json?api-key=${apiKey}`;
 
@@ -46,7 +46,7 @@ $(document).ready(function() {
                 newsHtml = '<p>No hay artículos disponibles.</p>';
             }
 
-            // Actualiza el contenido del contenedor
+         
             $('#nyt-news-container').html(newsHtml);
         },
         error: function(error) {

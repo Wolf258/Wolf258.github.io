@@ -92,6 +92,8 @@ if (change_c == 0) {
  change_c = 1   
  total_output.innerHTML = total;
  console.log(total + " A")
+ calcularDescuento()
+ calcular_final_bruto()
 
 }else{
 
