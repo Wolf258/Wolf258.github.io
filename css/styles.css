@@ -1,0 +1,1373 @@
+.index_body{
+margin: 0px;
+padding: 0px;
+display: grid;
+grid-template-areas: "header" "main_index"  "footer";
+
+
+
+}
+body, main {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Asegura que el contenido principal ocupe al menos la altura de la ventana */
+  display: flex;
+  flex-direction: column;
+  all: revert;
+}
+a{
+  text-decoration: inherit;
+  color: inherit;
+  
+  }
+nav{
+width: 100%;
+height: max-content;
+position: relative;
+bottom: 10px;
+
+}
+header ul{
+  list-style-type: none !important; 
+  text-align: center !important;
+  justify-content: center !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  background-color: #E0E0E0;
+}
+
+header li{
+ position: relative;
+ justify-content: center;
+ display: inline-block;
+ text-align: center;                          
+ padding-left: 1%;                          
+ border: 3px solid rgb(0, 0, 0);            
+ padding-right: 10px;                         
+ border-radius: 100px;
+ padding-top: 8px;
+ padding-bottom: 8px;    
+ margin-left: 50px;
+ background-color: #997F80;  }
+
+
+ header .div-index{
+  height: 115px;
+  width: auto;
+  position: relative;
+  bottom: 20px;
+  background-color: black;}
+
+
+
+header .p-index{
+
+  color: #f0ffff; 
+  font-family: "Protest Guerrilla", sans-serif;
+  font-size: 60px;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  bottom: 10px;
+  left: 50px;
+  display: inline-block;
+}
+header .p-status{
+
+  color: azure; 
+  font-family: "Protest Guerrilla", sans-serif;
+  font-size: 60px;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  bottom: 10px;
+  left: 50px;
+  display: inline-block;
+  font-style: italic;
+}
+
+header .logo_div_img_index{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+
+
+
+
+
+
+.index_body header{
+  background-color:  #E0E0E0;
+  grid-area: header;
+  display: grid;
+  grid-template-rows: auto;
+  
+  
+  
+}
+.index_body main{
+  background-color: blue;
+  grid-area: main_index;
+  grid-template-rows: auto;
+  display: grid;
+  
+  
+}
+.index_body footer{
+  background-color:  #E0E0E0;
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.Texto_footer{
+  position: relative;
+  bottom: 0px;
+  display: inline-block;
+  text-align: center;
+ }
+ .Texto_footer a{
+  color: #0011ffb9;
+ }
+.footer-img{
+  position: relative;
+  width: 70px; 
+  height: 70px; 
+  top: 1px;
+  padding-right: 15px;
+  padding-left: 15px;} 
+
+  .section_1{
+    text-align: center;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 1 ;
+    height: max-content;
+  } 
+  
+
+ .section_1 h1{
+  font-size: 30px;
+  
+
+
+
+
+} 
+
+.section_1 p{
+
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  position: relative;
+  bottom: 10px;
+
+  
+
+
+
+
+} 
+
+.section_2{
+
+  text-align: center;
+  background: linear-gradient(rgb(241, 243, 129) ,rgb(229, 231, 96) , rgb(229, 231, 96));
+  display: grid;
+  grid-template-columns: auto;
+  height: max-content;
+  grid-row: 2;
+
+} 
+
+.section_2 h2{
+  font-size: 30px;
+  margin-bottom: 0px;
+ 
+
+
+
+} 
+.section_2 blockquote h3{
+  margin: 0px;
+  font-size: 23px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 5px;
+
+} 
+.section_2 blockquote p{
+  margin: 0px;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  font-size: 17px;
+  font-weight: bold;
+  position: relative;
+  top: 15px;
+
+} 
+.section_3{
+  
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: max-content;
+ 
+
+} 
+.section_3 h4{
+  margin: 0px;
+  font-size: 23px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 15px;
+  position: relative;
+  left: 40%;
+  top: 15px;
+  text-align: left;
+  width: 100%; 
+  display: block;
+  
+  
+  
+
+} 
+.section_3 p{
+
+  margin: 0px;
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  font-size: 17px;
+  font-weight: lighter;
+  position: relative;
+  top: 15px;
+  
+
+} 
+.noticias_1{
+  position: relative;
+  right: 50%;
+  top: 40%;
+  height: max-content;
+  width: fit-content;
+ 
+  
+  } 
+.noticias_2{
+position: relative;
+height: max-content;
+width: fit-content;
+left: 25%;
+bottom: 60%;
+grid-column: 2;
+} 
+
+.index_body main{
+  display: grid;
+  min-height: 70vh;
+  grid-template-rows: min-content min-content min-content;
+  
+} 
+.politica_de_privacidad_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.politica_de_privacidad_div label {
+  margin-right: 10px;
+}
+.status {
+  background-color: #D3D3D3;
+}
+
+
+
+
+/**********************************************PRODUCTOS CONFIG*******************************************************************/
+.body_productos{
+
+  padding: 0px;
+  margin: 0px;
+  display: grid;  
+  grid-template-areas: "header" "main" "footer";
+  overflow-x: hidden;
+  min-height: fit-content;
+  overflow-y: auto ;
+}
+
+.body_productos main{
+  grid-area: main;
+  grid-template-rows: auto;
+  min-height: 75vh;
+  background-color:  #E0E0E0;
+
+}
+.body_productos header{
+  background-color:  #E0E0E0;
+  grid-area: header;
+  display: grid;
+  
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.body_productos footer{
+  background-color:  #E0E0E0;
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Asegura que el footer esté dentro del flujo normal del documento */
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+
+  }
+
+
+
+
+
+/********************************************HORARIO CONFIG****************************************************/
+ .contacto_body{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    
+    
+    }
+  
+  
+  .contacto_body header{
+    background-color:  #E0E0E0;
+    grid-area: header;
+    display: grid;
+    grid-template-rows: auto;
+    
+    
+    
+  }
+   .contacto_main{
+    grid-area: main;
+    background-color:  #E0E0E0;
+    display: grid;
+    grid-template-rows: auto;
+    min-height: 80vh;
+    
+    
+    }
+   .div_horario{
+
+    background: linear-gradient(rgb(241, 243, 129) ,rgb(229, 231, 96) , rgb(229, 231, 96));
+    position: relative;
+    z-index: 3;
+    margin-bottom: 20px;
+    height: max-content;
+    width: max-content;
+    top: 10px;
+    left: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    display: grid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .contacto_main div p{
+      font-size: 16.5px;  
+      padding-bottom: 100px;
+      padding-right: 10px;
+      padding-left: 10px;
+    
+    }
+    .contacto_main div h1 {
+     width: fit-content;
+     height: fit-content;
+     position: relative;
+     left: 28%;
+    
+    }
+    .mapita{
+    display:inline-block;
+  
+    height: auto;
+    width: fit-content;
+    z-index: 3;
+    top: 50px;
+    left: 25px;
+    width: 700px;
+    height: 400px;
+    position: relative;
+    grid-column: 2;
+    }
+  
+ 
+
+    .contacto_body footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 0;
+      
+    }
+
+/****************************************PRESUPUSTO CONFIG*************************************************************************/
+    .presupuesto_body{
+      padding: 0px;
+      margin: 0px;
+      display: grid;
+      grid-template-areas: "header" "main" "footer";
+      overflow-x: hidden;
+      height: auto;
+}
+.Caja_F{
+  position: relative;
+  top: 30px;
+  left: 25%;
+
+    min-height: 80vh; 
+    margin-bottom: 20px; 
+
+  height: max-content;
+  width: max-content;
+  
+}
+
+.presupuesto_body header{
+  background-color:  #E0E0E0;
+  grid-area: header;
+  display: grid;
+  grid-template-rows: min-content;
+  
+  
+  
+}
+
+.presupuesto_body main{
+  background-color:  #E0E0E0;
+  grid-area: main;
+  min-height: 80vh;
+  
+
+}
+
+
+#politica_coloreada{
+  color: blue;
+
+ }
+
+
+ .formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Add space between form elements */
+  margin-bottom: 30px;
+}
+.formulario fieldset {
+  border: none; /* Remove default border */
+  padding: 0; /* Remove default padding */
+}
+.formulario label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+#output_precio {
+  font-size: 18px;
+  color: #333;
+}
+
+.formulario input, 
+.formulario select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.formulario input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+  bottom: 3px;
+}
+.formulario checkbox 
+
+.precio_final {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 5px;
+ 
+}
+.precio_final label {
+ margin-left: 15px;
+
+
+}
+.precio_final output {
+  margin-left: 15px;
+  margin-right: 15px;
+ 
+   
+ }
+
+
+
+ #textarea{
+  position: relative;
+  left: 30px;
+  }
+
+ .formulario .check{
+  position: relative; bottom: 2.5px; 
+ 
+ }
+ .presupuesto_h {
+  text-align: center;
+  margin: 10px 0;
+}
+.presupuesto_p {
+  text-align: center;
+  font-size: 16px;
+}
+  .ubicacion_f{
+  height: 20px;
+
+
+
+  }
+
+.almacen_control #titulo_almacen, .almacen_control #titulo_domicilio , .almacen_control input{
+position: relative;
+left: 25%;
+padding-right: 2%;
+padding-left: 2%;
+}
+
+  .almacen_control{
+ display: flex;
+ margin-top: 10px;
+
+}
+
+
+
+.presupuesto_body footer{
+  background-color:  #E0E0E0;
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  position: relative; /* Asegura que el footer esté dentro del flujo normal del documento */
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.set_error_style input{
+border-color: red;
+
+
+}
+.set_error_style small{
+ 
+ visibility: visible;
+ background-color: red; 
+    
+}
+.set_success_style input{
+border-color: rgb(10, 255, 10);
+
+
+}
+.set_success_style small {
+visibility: none;
+
+
+}
+.set_error_style select{ 
+border-color: red;
+
+}
+.set_success_style select{
+  border-color: rgb(10, 255, 10);
+  
+  
+}
+#model_select{
+position: relative ;
+right: 0.1%;
+
+
+}
+#Color{
+  position: relative ;
+  
+  
+  
+  }
+.form_part_1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+
+
+}
+
+#Politica_de_privacidad {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#nyt-news-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-color: white;
+  justify-content: center;
+}
+
+#nyt-news-container .article-container {
+  width: 100%;
+  max-width: 600px; 
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadido sombreado para efecto de elevación */
+}
+
+#nyt-news-container .title-image-container {
+  display: flex; 
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#nyt-news-container h2 {
+  margin: 0;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#nyt-news-container img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 5px; 
+}
+
+#nyt-news-container p {
+  margin: 10px 0; 
+  font-size: 16px;
+  bottom: 10px;
+}
+
+#nyt-news-container a {
+  display: inline-block;
+  margin-top: 10px; 
+  font-size: 14px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+#nyt-news-container a:hover {
+  text-decoration: underline; 
+}
+#nyt-news-container .source {
+  margin: 0;
+  font-size: 14px;
+  color: black; 
+  padding-bottom: 17px;
+
+}
+#Guardian {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-color: white;
+  justify-content: center;
+}
+
+#Guardian .article-container {
+  width: 100%;
+  max-width: 600px; 
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#Guardian .title-image-container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  margin-bottom: 15px;
+}
+
+#Guardian h2 {
+  margin: 0;
+  margin-bottom: 5px; 
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#Guardian .source2 {
+  margin: 0;
+  font-size: 14px; 
+  color: black; 
+  padding-bottom: 17px;
+
+}
+
+#Guardian img {
+  max-width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
+
+#Guardian p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#Guardian a {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+#Guardian a:hover {
+  text-decoration: underline;
+}
+#newsapi {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-color: white;
+  justify-content: center;
+}
+
+#newsapi .article-container {
+  width: 100%;
+  max-width: 600px; 
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#newsapi .title-image-container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  margin-bottom: 15px;
+}
+
+#newsapi h2 {
+  margin: 0;
+  margin-bottom: 5px; 
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#newsapi .source {
+  margin: 0;
+  font-size: 14px;
+  color: black; 
+  padding-bottom: 17px;
+}
+
+#newsapi img {
+  max-width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
+
+#newsapi p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#newsapi a {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+#newsapi a:hover {
+  text-decoration: underline;
+}
+.p-index-fix1{
+  
+  color: #f0ffff; 
+  font-family: "Protest Guerrilla", sans-serif;
+  font-size: 60px;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  top: 32px;
+  left: 50px;
+  display: inline-block;
+
+}
+.logo_div_img_index_fix1{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+
+}
+/**************************************/
+#control_ae86{
+ position: relative;
+ width: 300px;
+ height: 180px; 
+ padding-left: 10px;
+}
+#control_ae86 img{
+  width: 300px;
+  height: 180px; 
+ }
+#FD3S_control{
+  position: relative;
+  width: 300px;
+  height: 180px;  
+  padding-left: 10px;
+ }
+ #FD3S_control img{
+  width: 300px;
+  height: 180px; 
+ 
+ }
+ #gt86_control{
+  position: relative;
+  width: 300px;
+  height: 180px; 
+  padding-left: 10px;
+ }
+ #gt86_control img{
+  width: 300px;
+  height: 180px; 
+ }
+
+ #honda_control{
+  position: relative;
+  width: 300px;
+  height: 180px; 
+  padding-left: 10px;
+ }
+ #honda_control img{
+  width: 300px;
+  height: 180px; 
+ }
+
+ #MR2_control{
+  position: relative;
+  width: 300px;
+  height: 180px; 
+  padding-left: 10px;
+ }
+ #MR2_control img{
+  width: 300px;
+  height: 180px; 
+
+ }
+ #r32_control{
+  position: relative;
+  width: 300px;
+  height: 180px; 
+  padding-left: 10px;
+}
+#r32_control img{
+  width: 300px;
+  height: 180px; 
+}
+
+#subaru_control{
+  position: relative;
+  width: 300px;
+  height: 180px; 
+  padding-left: 10px;
+}
+#subaru_control img{
+  width: 300px;
+  height: 180px; 
+}
+#SUPRA_control{
+  position: relative;
+  width: 300px;
+  height: 180px; 
+  padding-left: 10px;
+}
+#SUPRA_control img{
+  width: 300px;
+  height: 180px; 
+}
+#Line1{
+ position: relative;
+ display: inline-flex;
+ margin: 0 auto;
+ width: 100%;
+ justify-content: center;
+ top: 5%;
+}
+#Line2{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  top: 30px;
+ }
+ #line1_names{
+position: relative;
+display: inline-flex;
+justify-content: center;
+margin: 0 auto;
+width: 100%;
+margin: none;
+top: 30px;
+ }
+ #line2_names{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  margin: none;
+  top: 30px;
+   } 
+ #line1_names p{
+ position: relative;
+ font-size: 22px;
+ margin: 5px;
+
+   }
+ 
+#line2_names p{
+    position: relative;
+    font-size: 22px;
+    margin: 5px;
+    font-size: 22px;
+    width: fit-content;
+    height: fit-content;
+  }  
+
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+#name1{
+  position: relative;
+  right: 25%;
+ }
+ #name2{
+  position: relative;
+  right: 6%;
+ }
+ #name3{
+  position: relative;
+  left: 12%;
+ }
+ #name4{
+  position: relative;
+  left: 28%;
+ }
+
+ #name5{
+  position: relative;
+  right: 23%;
+ }
+ #name6{
+  position: relative;
+  right: 2%;
+ }
+ #name7{
+  position: relative;
+  left: 12%;
+ }
+ #name8{
+  position: relative;
+  left: 24%;
+ }
+.footer-img-fix1{
+  position: relative;
+  height: 70px; 
+  top: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  
+ }
+
+ #section2-25_div{
+display: inline-flex;
+position: relative;
+background-color: white;
+margin: 0 auto;
+width: 100%;
+height: 450px;
+justify-content: center;
+
+
+ }
+ .section2-5 h1{
+  text-align: center;
+  font-size: 34px;
+  font-family: "Protest Guerrilla", sans-serif;
+  letter-spacing: 5px;
+  margin-bottom: 8px;
+  padding: 0px;
+  color: rgb(10, 27, 53);
+   }
+   .section2-5 {
+ background-color: white;
+
+     }  
+#section2-25_div img{
+  position: relative;
+  width: 200px;
+  height: 400px;
+  margin-left: 10px; 
+  margin-right: 10px;  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*...................................................:........................................................
+...............................................-+%@@@#+*++*##+-.............................................
+............................................-#@@@@@@@@@@@@@@@@@@@#:.........................................
+..........................................:*@@@@@@@@@@@@@@@@@@@@@@@%-.......................................
+........................................+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@......................................
+......................................+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:....................................
+.....................................#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-...................................
+....................................*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+..................................
+...................................=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*.................................
+...................................+@@@@@@*+++====+**+*##%%@@@@@@@@@@@@@@@@+................................
+...................................*@@@@@*+======---------===+#%@@@@@@@@@@@*................................
+...................................%@@@@#++=======------------=+%@@@@@@@@@@%-...............................
+...................................%@@@@++======--------------==#%@@@@@@@@@@+...............................
+...................................%@@@#==---------------------=+#@@@@@@@@@@+...............................
+..................................:%@@@*+=====------------------+#@@@@@@@@@@+...............................
+..................................-*@@@#@@%%%#+++==-====++=+*+===+%@@@@@@@@#:...............................
+..................................-=+@%*++++*#@@@#++*%@@@%+---==-=*%@@@@@@@%-...............................
+..................................::=%%==#*:+@@@%%=-+#%@%%@%%#+---=%@@@%@@%#-...............................
+.....................................=*=-=+#*%%%#+--=+#%#**+=-:----+@@@@*+%%-...............................
+.....................................++=--=++++++=--===+**+=-:::--==@%%@@%--................................
+....................................-@#+======+*+=-------==--:::-==+#++=#@-.................................
+....................................#@@#+====+#+=----====--------==++=-=@%+.................................
+...................................:#@@%#++=+%%==-----+*=------====+@##@@@#.................................
+...................................-*#+###++*#%@@#*+*+=+==----=====+@@@@@@#:................................
+...................................==--%****+**###%#+======---=====+@@@@#**-................................
+...................................:.:#@%#+###*##+*+==++++=--=====++@@@@#==.................................
+.....................................+#@@####%@@@@%%%##**+======++==@@@@@+-.................................
+....................................:..@==#%%##@@%###+===++++++*+-==@#%+%+..................................
+......................................-:.-%%##++***++==++++++*+---==@@#+::..................................
+......................................-.%@@@@#+++*++=-===**#+---#@@@@@@%....................................
+....................................#@@@@@@@*@%%########%#**%@@@@@@@@@@@....................................
+................................:*@@@@@@@@@@+#%@@@@@%%%%@@@@@@@@@@@@@@@@:...................................
+..............................=@@@@@@@@@@@@%**###%@@@@@@@@@@@@@@@@@@@%%%%%+.................................
+.............................*@@@@@@@@@@@@@##+###%@@@@@@@@@@@@@@@@%%##%%%%#+:...............................
+..........................:=+@@@@@@@@@@@@@@##+#@@@@@@@@@@@@@@@@@#%%#%%#%%%%%*=:.............................
+......................:=+%%%%@@@@@@@@@@@@@@*#*%@@@@@@@@@@@@@@%%%##%%#%%%%%%%%#%#+=-.........................
+...................:=#%%%%%%%@@@@@@@@@@@@%%*##%@@@@@@@@@@@@%%%##%##%%%#%%#%%#%##%#%#+=......................
+..................+%%%@@%%%%%@@@@@@@@@%###*+**#@@@@@@@@@@%%##%%#%%@%%%%%%%%%%%%#%%#%%#%#-:..................
+.................#%@@@@%%%%%@@@@@@@@@@%#++++++%@@@@@@@@@%%%%##%@@%%#%%%%%%%###%%###%%%%%##%#=...............
+................#%@@@%%@@%%%@@@@@@@@@@%##**++%@@@@@@@@%%####%%@%%#%%%%%%%%%%%%%%%%%#%%%%%#%%%#=.............
+...............=%@@@@%@@%%%@@@@@@@@%%#****#*@@@@@@@@@###%%#%@@%%%%%%%%%%%%%%%%%#%%%%#%%%%%#%%%%#-...........
+..............:#@@@@@@%%%%@@@@@@@@###+++++*@@@@@@@@@###%%%@@@%%%%%%@@%%@%@%%%%%%%%%%%%#%%##%%##%*...........
+..............=%@@@@@%%%#@@@@@@@@%##++=++#@@@@@@@@%#%##@@%%@%%%%%@@@%@@%%%%%%%%%%%%%%%%#%%%#%%%#%=..........
+..............#@@@@@@%#%@@@@@@@@@%#*++*#%@@@@@@@@#%%##%%%@@%@@@%@@@@@@@@@@%@@%%%%%%%%%%%#%%%%%%#%#-.........
+..............%@@@@@%%%@@@@@@@@@%#*++#*@@@@@@@@@#%#%%%%#%@@@@@%@@@@@@@@@%%%@@%%%%#%%%#%%%#%%%%%##%+.........
+.............:%@@@@@%#%@@@@@@@%%%#+=*#@@@@@@@@%##%##%%#%@@@@@%@@@@@@@@@@@@@%%%%%%%%#%%######%%%%#%#-........
+..............%@@@@%#%@@@@@@@@%%#+*#@@@@@@@@@%#%##%%#%%%@@@@%@@@@@@@@@@@@@@%%%%%%%%%#%%%##%###%%%%%+........
+..............%@@@%#%@@@@@@@@@%#++#@@@@@@@@@##%##%##%%%@@@@@@@@@@@@@@@@@@@%%%%%%%%%%%#%%%%%%#####%%#=.......
+.............:%@@%##%@@@@@@@@@%##@@@@@@@@@@#%%##%%#%%@@@@@@@@@@@@@@@@@@@@@@@%%%%%#%%%%#%%%%%%%##%#%##=......
+.............-#%%##%@@@@@@@@@@%@@@@@@@@@@@#%%##%%#%%%@@@@@@@@@@@@@@@@@@@@@@@%%%%%%##%#%##%%%%%%##%%%%#-.....
+.............+%%%%%%@@@@@@@@@@@@@@@@@@@@%#%%#%%%#%@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%#%%%%##%###%%%%#%%%+.....
+............-*%%%%%@@@@@@@@@@@@@@@@@@@@%#%%#%#%#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@%%%%%%%%##%##%%%%%%##%=....
+............=%%##%@@@@@@@@@@@@@@@@@@@@%#%%#%#%#@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%@%%%%%%#%%###%##%%%%#:...
+...........:*%%#%@@@@@@@@@@@@@@@@@@@@%#%%##%#%@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%%%%%@%%%#%%##%%##%%%%+...
+...........-#%%%%@@@@@@@@@@@@@@@@@@@%%#%#%#%@@@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%#%@%%%%%%##%%##%%%%-..
+...........=%%#%@@@@@@@@@@@@@@@@@@@@%%%###%@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%#%%%%%%%%##%#%%%%#:.
+...........+%%%%@@@@@@@@@@@@@@@@@@@##%##%@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%#%%%%##%%%%%%%%%%%##%%%*.
+...........*%%%@@@@@@@@@@@@@@@@@@@%%%#%%%@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%#%%%%%##%#%##%%%%%%#%%#=
+..........-#%%@@@@@@@@@@@@@@@@@@@@#%%#%@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#%%%%###%####%%%%%#%%% */  

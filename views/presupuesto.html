@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCARS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+</head>
+<body class="presupuesto_body">
+    <header>
+        <div class="div-index"><a href="../index.html"><img src="../images/RUEDA.png" alt="index_logo" class="logo_div_img_index"></a><a href="../index.html"><p class="p-index">D CARS</p></a></div>
+        <nav>
+             <ul>
+                 <li><a href="../views/productos.html">Productos </a></li>   
+                 <li class="status"><a href="../views/presupuesto.html">Presupuesto </a></li>     
+                 <li><a href="../views/contactanos.html">Contactanos </a></li>   
+             </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="Caja_F">
+            <h1 class="presupuesto_h">Tu auto ideal al precio ideal!</h1>
+            <p class="presupuesto_p">Por favor rellene el formulario para que podamos ponernos en contacto con usted</p>
+          
+            <form action="enviar_formulario.php" class="formulario">
+              <fieldset>
+                <div class="form-control">
+                  <label for="nombre">Nombre</label>
+                  <input type="text" id="nombre" required>
+                  <small></small>
+                </div>
+            
+                <div class="form-control">
+                  <label for="Apellido">Apellido</label>
+                  <input type="text" id="Apellido" required>
+                  <small></small>
+                </div>
+            
+                <div class="form-control">
+                  <label for="email">Correo electrónico</label>
+                  <input type="email" id="email" required>
+                  <small></small>
+                </div>
+            
+                <div class="form-control">
+                  <label for="telefono">Teléfono</label>
+                  <input type="tel" id="telefono" required>
+                  <small></small>
+                </div>
+              </fieldset>
+            
+              <fieldset>
+                <div class="form-control">
+                  <label id="title_model">Escoge un Modelo</label>
+                  <select id="model_select" name="Opciones" required>
+                    <option value="" style="visibility:hidden;">&nbsp;</option>
+                    <option value="4820" id="AE86">Toyota Sprinter Trueno (AE86)</option>
+                    <option value="19760" id="GT86">Subaru BRZ (GT86)</option>
+                    <option value="29300" id="R32">Nissan GTR R32 Skyline</option>
+                    <option value="24930" id="FD3S">Mazda RX7 (FD3S)</option>
+                    <option value="40210" id="Supra">Toyota GR Supra Turbo</option>
+                    <option value="14990" id="Subaru">Subaru Impreza WRX</option>
+                    <option value="52760" id="NSX">Honda NSX</option>
+                    <option value="8240" id="MR2">Toyota MR2</option>
+                    
+                  </select>
+                  <small></small>
+                </div>
+            
+                <div class="form-control">
+                  <label id="title_color">Escoge un color</label>
+                  <select name="Color" id="Color" required>
+                    <option value="" style="visibility:hidden;">&nbsp;</option>
+                    <option value="2500">Rojo</option>
+                    <option value="2500">Blanco</option>
+                    <option value="2500">Negro</option>
+                    <option value="2500">Azul</option>
+                    <option value="2500">Gris</option>
+                    <option value="0">Default</option>
+                    <option value="7000">Personalizado</option>
+                  </select>
+                  <small></small>
+                </div>
+              
+              <div class="form-control">
+                <label id="plazos_label">Plazos (Meses)</label>
+                <input type="number" id="plazos_input" min="1" step="1" max="24" required>
+                <small></small>
+              </div>
+
+            </fieldset>
+
+              <fieldset>
+                <div class="ubicacion_f">
+                  <label>Ubicación</label>
+                  <div id="autocomplete"></div>
+                </div>
+            
+                <div class="form-control almacen_control">
+                  <label>Método de recogida</label>
+                  <label id="titulo_almacen">En Almacén</label>
+                  <input type="checkbox" id="Almacen" value="0">
+                  <label id="titulo_domicilio">Entrega a Domicilio</label>
+                  <input type="checkbox" id="Domicilio" value="80">
+                  <small></small>
+                </div>
+              </fieldset>
+            
+              <div class="precio_final">
+                <label id="precio_bruto_tittle" style="opacity: 45%;">Precio</label>
+                <output id="output_precio">0</output>
+                <label id="Descuento_tittle" style="opacity: 45%;">Descuento</label>
+                <output id="output_descuento">0</output>
+                <label id="precio_def_Tittle">Precio final</label>
+                <output id="output_final_output">0</output>
+              </div>
+            
+              <div class="politica_de_privacidad_div">
+                <input type="checkbox" class="check" required>
+                <label id="Politica_de_privacidad_tittle">Usted ha leído y está de acuerdo con nuestra 
+                  <a id="politica_coloreada" href="https://policies.google.com/privacy?hl=es">Política de privacidad</a>
+                </label>
+                <button id="Politica_de_privacidad">Enviar</button>
+              </div>
+            </form>
+            
+          </div>
+        
+             
+      
+
+    </main>
+
+    <footer>
+        <p class="Texto_footer"> Mount Akina , Gunma , Japan ┃  ┃<a href="https://policies.google.com/privacy?hl=es">Politica de privacidad</a> │ <a href="https://www.google.com/search?client=opera-gx&hs=8nY&sca_esv=5edede5fd926eb91&sxsrf=ACQVn0-VHBi7IK_249btE9CeggC3qJXyqA:1709564092790&q=cookies&uds=AMwkrPsBPNDafjjFvDS5v7DOdiEJGh8_PgYc3LWmvpRN1VI0j2fSTjBMqzoiB1wrQ_BGBjtD2SRsJsILsm9fWbikCFR3HQi-A_ACpWNTh5qUjGj6_K9PQHrEajH1lHPbCv42KZ9h8A0M&udm=2&sa=X&ved=2ahUKEwj-uOLD7tqEAxUBVqQEHWAFD1gQtKgLegQIDhAB&biw=1325&bih=637&dpr=1#vhid=DbmaZ-x3Tk805M&vssid=mosaic">Politica de cookies</a></p>
+        <a href="https://www.instagram.com"><img src="../images/instagram_logo.jpg" alt="Instagram_logo" class="footer-img"></a>
+        <a href="https://www.facebook.com"><img src="../images/facebook_logo.jpg" alt="Facebook_logo" class="footer-img"></a>
+        <a href="https://www.youtube.com"><img src="../images/Youtube_logo.png" alt="Youtube_logo" class="footer-img"></a>
+    </footer>
+
+   
+<script src="/js/calculo.js"> </script>
+<script src="/js/checkbox.js"></script>
+<script src="/js/validacion.js"></script>
+<script src="/js/mouseover.js"></script>
+
+</body>
+</html>
